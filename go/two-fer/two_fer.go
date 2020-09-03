@@ -10,5 +10,5 @@ func ShareWith(name string) string {
 		name = "you"
 	}
 
-	return fmt.Sprintf("One for %v, one for me.", name)
+	return fmt.Sprintf("One for %s, one for me.", name)
 }
