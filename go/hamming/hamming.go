@@ -4,25 +4,23 @@ package hamming
 
 import (
 	"errors"
-	"strings"
 )
 
 // Distance calculates the hamming distance given to DNA sequences
 func Distance(a, b string) (int, error) {
-	if len(a) != len(b) {
+	ar, br := []rune(a), []rune(b)
 
-		return -1, errors.New("DNA strands are not the same length")
+	if len(ar) != len(br) {
+
+		return 0, errors.New("DNA strands are not the same length")
 
 	}
 
-	sliceA := strings.Split(a, "")
-	sliceB := strings.Split(b, "")
-
 	sum := 0
 
-	for i := 0; i < len(a); i++ {
+	for i := 0; i < len(ar); i++ {
 
-		if sliceA[i] != sliceB[i] {
+		if ar[i] != br[i] {
 			sum++
 		}
 
