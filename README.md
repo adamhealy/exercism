@@ -11,8 +11,16 @@ A place for my [exercism](https://exercism.io/profiles/adamhealy) exercises.
 - Two Fer:
     - [Exercism](https://exercism.io/tracks/go/exercises/two-fer/solutions/a2b62369f69b4e6bbbbb4d7866e4499a) solution
     - [GitHub](https://github.com/adamhealy/exercism/blob/main/go/two-fer/two_fer.go) solution
-- Hamming:
-    - Exercism solution (still to be published)
+- Hamming: So much to learn from feedback here (hence the list)
+    - Lessons:
+        - Strings / Runes / slices
+            - [Arrays, slices (and strings): The mechanics of 'append'](https://blog.golang.org/slices)
+            - [Strings, bytes, runes and characters in Go](https://blog.golang.org/strings)
+        - Errors return the [zero value](https://golang.org/ref/spec#The_zero_value)
+        - [Go proverbs](https://go-proverbs.github.io/) (zen of go)
+        - No blank lines in functions
+        - for range to iterate over slice ([Go by Example: Range](https://gobyexample.com/range))
+    - [Exercism](https://exercism.io/tracks/go/exercises/hamming/solutions/57febc1f040649f1af34970e7313faeb) solution
     - [GitHub](https://github.com/adamhealy/exercism/blob/main/go/hamming/hamming.go) solution
 
 
