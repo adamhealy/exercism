@@ -22,14 +22,20 @@ A place for my [exercism](https://exercism.io/profiles/adamhealy) exercises.
         - for range to iterate over slice ([Go by Example: Range](https://gobyexample.com/range))
     - [Exercism](https://exercism.io/tracks/go/exercises/hamming/solutions/57febc1f040649f1af34970e7313faeb) solution
     - [GitHub](https://github.com/adamhealy/exercism/blob/main/go/hamming/hamming.go) solution
+- Raindrops:
+    - Exercism solution still to be published
+    - [GitHub](https://github.com/adamhealy/exercism/blob/main/go/raindrops/raindrops.go) solution
 
 
 
 ### Extra exercises
 -  Space Age: I learnt from the community solutions on this one, specifically about [maps](https://blog.golang.org/maps)
 from corbyshaner's [solution](https://exercism.io/tracks/go/exercises/space-age/solutions/9ab75f550d924657ba27f12c3f539e7b). 
-    - [Exercism](https://exercism.io/tracks/go/exercises/space-age/solutions/ea11a36254854236a9a7c8eaae3f3884) solution (still to be published)
+    - [Exercism](https://exercism.io/tracks/go/exercises/space-age/solutions/ea11a36254854236a9a7c8eaae3f3884) solution
     - [GitHub](https://github.com/adamhealy/exercism/blob/main/go/space-age/space_age.go) solution
+- Leap: I could probably condense conditionals into single statement
+    - [Exercism](https://exercism.io/tracks/go/exercises/leap/solutions/50c55031e6354a2d8e35af31a0458ce0) solution
+    - [Github](https://github.com/adamhealy/exercism/blob/main/go/leap/leap.go) solution
 
 
 
