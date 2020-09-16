@@ -23,7 +23,10 @@ A place for my [exercism](https://exercism.io/profiles/adamhealy) exercises.
     - [Exercism](https://exercism.io/tracks/go/exercises/hamming/solutions/57febc1f040649f1af34970e7313faeb) solution
     - [GitHub](https://github.com/adamhealy/exercism/blob/main/go/hamming/hamming.go) solution
 - Raindrops:
-    - Exercism solution still to be published
+    - Lessons:
+        - To declare an empty variable, use `var s string` instead of `s := ""`. Reason as explain by the mentor:
+            > This is because the first approach doesn't allocate any memory until it's assigned a value. While the other approach assigns it a value, which in this case is the default value.
+    - [Exercism](https://exercism.io/tracks/go/exercises/raindrops/solutions/6b0e70d3bda2476f95a71b72e0821c03) solution
     - [GitHub](https://github.com/adamhealy/exercism/blob/main/go/raindrops/raindrops.go) solution
 
 
